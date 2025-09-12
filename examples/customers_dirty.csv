@@ -1,0 +1,121 @@
+CustomerID,Name,Age,Email,Country,Salary
+1000,Evan,31,evan346@company.org,United Kingdom,81856.24843100217
+1001,Ivan,59,ivan7@co.io,India,59980.079242857624
+1002,Fatima,33,fatima463@company.org,UnitedStates,63582.83270890906
+1003,Julia,9,julia350@mail.com,USA,45725.04853021334
+1004,Hannah,19,hannah662@mail.com,IN,46795.539332664615
+1005,Diana,21,diana742@example.com,India,45364.67126894083
+1006,Charlie,63,,UAE,61138.38846390455
+1007,Julia,43,,IN,75769.97603967456
+1008,Evan,47,evan132@example.com,UK,62500.08604688095
+1009,Ivan,54,ivan170@example.com,IN,46707.2329176348
+1010,George,23,george487@company.org,IN,58467.056219468985
+1011,Bob,30,bob261@co.io,U.S.A,69454.524825252
+1011,Bob,30,bob261@co.io,U.S.A,69454.524825252
+1013,Evan,42,evan401@example.com,UnitedStates,57742.75998700263
+1014,Alice,18,alice43@mail.com,United Kingdom,92146.33406191334
+1015,Alice,38,alice209@mail.com,U.S.A,37794.586104496666
+1016,Bob,55,bob540@mail.com,United Kingdom,53128.09810670986
+1017,Bob,35,bob145@example.com,India,53563.97109666012
+1018,Alice,34,alice847@co.io,UnitedStates,71719.52716575739
+1019,Diana,10,,U.S.A,88930.81503188456
+1020,Bob,67,bob381@co.io,UnitedStates,84447.86134648722
+1020,Bob,67,bob381@co.io,UnitedStates,84447.86134648722
+1022,Hannah,52,,United Kingdom,68368.70587374864
+1023,Charlie,49,,United Kingdom,74708.3547725695
+1024,Julia,29,julia266@co.io,United Kingdom,61492.535797346936
+1025,Alice,41,alice140@mail.com,UnitedStates,38055.72616204346
+1026,Hannah,19,hannah850@example.com,UnitedStates,69978.05527436567
+1027,Charlie,43,,USA,52974.43944501509
+1028,Alice,41,,U.S.A,55195.56123234405
+1029,Evan,34,evan255@company.org,USA,60607.557350725525
+1030,George,33,george42@mail.com,United Kingdom,64879.3202914875
+1031,Charlie,19,charlie997@co.io,United Kingdom,55928.85576173989
+1032,Fatima,31,fatima843@mail.com,UnitedStates,77528.93956931432
+1032,Fatima,31,fatima843@mail.com,UnitedStates,77528.93956931432
+1034,Bob,37,bob671@company.org,USA,51060.64369733368
+1035,Evan,38,evan88@mail.com,USA,61262.80854159437
+1036,Ivan,9,ivan146@mail.com,USA,54480.63739137732
+1037,Ivan,25,ivan32@mail.com,IN,86521.91924932548
+1038,Fatima,37,fatima602@mail.com,IN,65505.17278629411
+1039,George,28,george33@co.io,IN,61055.00703194373
+1040,Diana,-2,diana914@company.org,UnitedStates,74751.70178498511
+1041,Charlie,54,charlie925@mail.com,IN,31735.58689151884
+1041,Charlie,54,charlie925@mail.com,IN,31735.58689151884
+1043,Diana,-5,diana943@example.com,UnitedStates,48676.83305686037
+1044,Julia,44,julia53@example.com,India,67459.29778452343
+1045,Fatima,38,fatima491@mail.com,UAE,57392.6462547478
+1046,Fatima,27,fatima305@co.io,USA,62816.61730273715
+1047,Evan,34,evan237@mail.com,UAE,39126.30896133829
+1048,Bob,32,bob979@example.com,United Kingdom,65980.50089830637
+1049,Alice,30,alice855@co.io,United Kingdom,51269.28073416211
+1050,Evan,34,evan785@company.org,India,35477.18989375529
+1051,Alice,20,alice219@example.com,India,73220.7063771462
+1052,Fatima,42,,U.S.A,48680.898155783936
+1053,Bob,43,bob712@mail.com,IN,50577.148602403555
+1054,Charlie,30,charlie439@mail.com,UnitedStates,62448.51648242419
+1055,Ivan,42,ivan140@mail.com,UK,36051.63280097794
+1056,Ivan,34,ivan67@example.com,U.S.A,42153.74993012141
+1057,Julia,31,julia471@mail.com,United Kingdom,45789.78454224948
+1058,Bob,36,bob353@mail.com,U.S.A,71816.981874611
+1059,Alice,16,alice1@example.com,IN,84651.05865633023
+1060,Fatima,35,,IN,60050.23255309919
+1061,Julia,55,,UAE,30676.75648153004
+1062,Alice,43,alice216@mail.com,UAE,57482.75465051317
+1063,Evan,33,evan640@example.com,USA,72733.74955540922
+1064,Bob,22,bob203@mail.com,U.S.A,67711.58387716119
+1065,Hannah,28,hannah544@co.io,United Kingdom,29810.862460966844
+1066,Fatima,29,fatima8@mail.com,UAE,71783.27972307161
+1067,Diana,32,diana690@example.com,United Kingdom,62681.38889979044
+1068,Evan,51,,UAE,55378.91281328242
+1069,Hannah,35,hannah558@mail.com,United Kingdom,54822.97372125162
+1070,Bob,36,bob832@mail.com,UAE,56399.40332965982
+1071,Bob,19,bob826@company.org,United Kingdom,69324.25682640674
+1072,Hannah,22,hannah544@example.com,USA,56078.32255620762
+1073,Julia,45,julia625@example.com,UAE,74390.22371100777
+1074,Evan,30,evan710@mail.com,UK,53311.22523223107
+1075,Bob,23,bob647@company.org,United Kingdom,64844.900630822944
+1076,George,38,george212@mail.com,USA,49836.8995752935
+1077,Ivan,28,,India,69616.76402614196
+1077,Ivan,28,,India,69616.76402614196
+1079,Evan,37,evan517@company.org,UnitedStates,42246.928246352414
+1080,Bob,53,bob167@example.com,USA,44014.40538811742
+1081,Alice,30,alice95@mail.com,India,62986.54115455246
+1082,Charlie,34,charlie921@co.io,United Kingdom,83674.0868847627
+1083,Fatima,67,fatima602@example.com,UnitedStates,83612.97495532822
+1084,Hannah,42,,UK,79194.68151514838
+1085,Hannah,23,hannah619@mail.com,UAE,66507.8132121829
+1086,Julia,34,julia17@example.com,UK,76214.60670292322
+1087,Diana,57,diana304@mail.com,UAE,55798.39403278116
+1088,Julia,55,julia233@mail.com,United Kingdom,52307.55221872749
+1089,Diana,32,,USA,62228.487602685935
+1090,Alice,46,alice42@mail.com,U.S.A,38204.19174532633
+1091,Julia,41,julia222@co.io,USA,70065.01583132273
+1092,George,32,george60@co.io,U.S.A,58821.59579955245
+1093,Fatima,21,fatima794@example.com,UK,71215.1909977697
+1094,George,49,george582@mail.com,U.S.A,63788.921893259714
+1095,Bob,27,bob337@mail.com,USA,62740.217048701976
+1096,Diana,43,diana53@example.com,United Kingdom,50899.77329671721
+1097,Ivan,31,ivan322@co.io,UAE,40773.63120104234
+1098,Evan,42,evan241@example.com,UK,62653.81117638898
+1099,Charlie,26,charlie323@example.com,United Kingdom,69193.93210214276
+1100,Ivan,37,ivan408@co.io,UnitedStates,76123.74663618128
+1101,Julia,41,julia729@co.io,India,64516.421577547255
+1102,Julia,41,julia172@example.com,UK,68572.12270479396
+1103,Evan,53,evan601@example.com,UnitedStates,55249.43914580788
+1104,Evan,44,evan499@mail.com,UnitedStates,57504.26093422732
+1105,Hannah,21,hannah543@co.io,UnitedStates,67479.75394976218
+1106,Alice,18,alice283@example.com,India,79852.3615823139
+1106,Alice,18,alice283@example.com,India,79852.3615823139
+1108,George,45,george574@example.com,USA,57029.75791280862
+1109,Evan,14,evan465@mail.com,USA,58454.533084075054
+1110,Charlie,45,charlie554@company.org,USA,69727.91373579974
+1111,Evan,37,evan69@example.com,UnitedStates,
+1112,Ivan,48,,U.S.A,45414.987577659165
+1113,Fatima,24,fatima324@mail.com,IN,64544.301280515305
+1114,Alice,38,alice655@mail.com,UK,55011.61100916976
+1115,Diana,24,,UAE,64612.009428227655
+1116,Charlie,35,charlie865@example.com,UAE,66008.36330640544
+1117,Hannah,29,hannah76@company.org,UK,65083.574216026835
+1118,George,32,george140@company.org,India,42612.43689227862
+1119,Charlie,45,charlie578@mail.com,U.S.A,59990.80232095122

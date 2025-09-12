@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Jupyter/Notebook
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Exports / reports / profiling
+exports/
+reports/
+*.html
+*.json
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# OS files
+Thumbs.db
