@@ -1,3 +1,4 @@
+![Demo](demo/screenshot.png)
 # Data Quality Guardian (DQG)
 
 A beginner-friendly, production-leaning **data quality assistant** for Data Engineers.
