@@ -10,6 +10,7 @@ from dqg import (
     export_great_expectations,
     export_markdown_report,
     df_info,
+    compute_health
 )
 
 st.set_page_config(page_title="Data Quality Guardian", page_icon="🛡️", layout="wide")
@@ -18,7 +19,7 @@ st.caption("Upload → Profile → Suggest Rules → Detect Anomalies → Export
 
 with st.expander("About", expanded=False):
     st.markdown("""
-**What:** A beginner-friendly data quality assistant for Data Engineers.  
+**What:** A beginner-friendly data quality assistant for Data Engineers.
 **How:** Upload a CSV/XLSX, get a profile, suggested rules, anomaly detection, and exports (GE, SQL, report).
     """)
 
@@ -46,19 +47,29 @@ if uploaded is not None:
     profile = profile_dataframe(df)
     st.json(profile)
 
+    # --- UPDATED SECTION START ---
+
     # Suggested rules with toggles
     st.subheader("Suggested Rules")
     suggested = suggest_rules(profile)
     accepted = []
+
+    # Display the rules and their checkboxes
     for i, r in enumerate(suggested):
         with st.container(border=True):
             col1, col2 = st.columns([4,1])
             with col1:
-                st.write(r)
+                st.json(r)
             with col2:
                 if st.checkbox("Accept", key=f"rule_{i}"):
                     accepted.append(r)
-    st.success(f"Accepted {len(accepted)} rules.") if accepted else st.info("No rules accepted yet.")
+
+    # Display the metric AFTER the rules have been displayed and the 'accepted' list is populated.
+    st.metric("Rules Accepted", f"{len(accepted)} / {len(suggested)}")
+    st.write("---")
+
+    # --- UPDATED SECTION END ---
+
 
     # Preview fixes
     if accepted:
@@ -84,6 +95,15 @@ if uploaded is not None:
         st.dataframe(flagged.head(20))
     else:
         st.info("No anomalies flagged with current settings.")
+
+    st.subheader("Health Score")
+    anomaly_rate = (len(flagged) / len(df)) if (flagged is not None and not flagged.empty and len(df) > 0) else 0.0
+    health = compute_health(profile, anomaly_rate)
+    colA, colB, colC, colD = st.columns(4)
+    colA.metric("Score", health["score"])
+    colB.metric("Avg Missing %", health["avg_missing_pct"])
+    colC.metric("Dup %", health["dup_pct"])
+    colD.metric("Anomaly %", health["anomaly_rate_pct"])
 
     # Exports
     st.subheader("Exports")
