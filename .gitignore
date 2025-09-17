@@ -24,7 +24,8 @@ venv/
 exports/
 reports/
 *.html
-*.json
+reports/*.json
+exports/*.json
 
 # Python packaging
 build/
